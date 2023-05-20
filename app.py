@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request
 import re
 import pandas as pd
 import numpy as np
+from flask_cors import CORS
 from datetime import datetime, timedelta
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
