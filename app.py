@@ -13,6 +13,7 @@ from tensorflow.keras.layers import Dense, LSTM
 
 
 app = Flask(__name__)
+CORS(app)
 # api = Api(app)
 
 @app.route('/predictions/contract_address=<contr_add>&no_of_months=<no_months>', methods=['GET'])
