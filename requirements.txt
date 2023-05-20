@@ -9,7 +9,11 @@ scipy==1.7.3
 tensorboard==2.11.2
 tensorboard-data-server==0.7.0
 tensorflow==2.11.0
+tensorboard-data-server==0.7.0
+tensorflow==2.12.0
 tensorflow-estimator==2.12.0
+tensorflow-intel==2.12.0
+tensorflow-io-gcs-filesystem==0.31.0
 tzdata==2023.3
 gunicorn==20.1.0
 flask-cors==3.0.10
