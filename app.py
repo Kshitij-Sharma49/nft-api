@@ -2,6 +2,7 @@ import requests
 import json
 import csv
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 # from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
 import re
 import pandas as pd
